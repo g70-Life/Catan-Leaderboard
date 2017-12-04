@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia, sans-serif;
+  color: gold;
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+
+}
+
+#header {
+  background-image: url("./imgs/catanBanner.jpeg");
+  background-repeat: no-repeat;
+  height: 164px;
+}
+
+h1 {
+  padding-left: 10px;
+  padding-top: 95px;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px hsl(0, 0%, 20%), -2px -2px 1px hsl(0, 0%, 20%);
+}
+
+#board, td, tr {
+  font-size: 2rem;
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+}

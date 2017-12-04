@@ -1,0 +1,24 @@
+{
+  "name": "catan-leaderboard",
+  "version": "1.0.0",
+  "description": "This simple app takes in the daily winner and adds a point to their score. New winners will get appended as it happens.",
+  "main": "database.js",
+  "scripts": {
+    "test": "node database.js",
+    "start": "node database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g70-Life/Catan-Leaderboard.git"
+  },
+  "author": "Kyle Weintraub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g70-Life/Catan-Leaderboard/issues"
+  },
+  "homepage": "https://github.com/g70-Life/Catan-Leaderboard#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  }
+}
