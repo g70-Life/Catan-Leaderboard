@@ -24,7 +24,7 @@ h1 {
   text-shadow: 2px 2px 1px hsl(0, 0%, 20%), -2px -2px 1px hsl(0, 0%, 20%);
 }
 
-#board, td, tr {
+#board {
   font-size: 2rem;
   font-family: sans-serif;
   border-collapse: collapse;
@@ -32,4 +32,13 @@ h1 {
   width: 940px;
   display: flex;
   justify-content: space-between;
+}
+
+#board #wins {
+  border: 1px solid black;
+  width: 10px;
+}
+
+#player {
+  border: 1px solid black;
 }
