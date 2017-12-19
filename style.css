@@ -27,11 +27,6 @@ h1 {
 #board {
   font-size: 2rem;
   font-family: sans-serif;
-  border-collapse: collapse;
-  border: 2px solid black;
-  width: 940px;
-  display: flex;
-  justify-content: space-between;
 }
 
 #board #wins {
@@ -41,4 +36,8 @@ h1 {
 
 #player {
   border: 1px solid black;
+}
+
+#board td {
+  border: 2px solid black;
 }
