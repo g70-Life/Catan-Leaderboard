@@ -1,0 +1,27 @@
+[debug] [2017-12-21T21:16:19.637Z] ----------------------------------------------------------------------
+[debug] [2017-12-21T21:16:19.639Z] Command:       /usr/local/Cellar/node/8.7.0/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-21T21:16:19.639Z] CLI Version:   3.15.0
+[debug] [2017-12-21T21:16:19.639Z] Platform:      darwin
+[debug] [2017-12-21T21:16:19.639Z] Node Version:  v8.7.0
+[debug] [2017-12-21T21:16:19.640Z] Time:          Thu Dec 21 2017 14:16:19 GMT-0700 (MST)
+[debug] [2017-12-21T21:16:19.640Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-21T21:16:19.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-21T21:16:19.655Z] > authorizing via signed-in user
+[debug] [2017-12-21T21:16:19.657Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/g70-catan-leaderboard  
+ Thu Dec 21 2017 14:16:19 GMT-0700 (MST)
+[debug] [2017-12-21T21:16:20.199Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-21T21:16:20.200Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/g70-catan-leaderboard/tokens  
+ Thu Dec 21 2017 14:16:20 GMT-0700 (MST)
+[debug] [2017-12-21T21:16:20.682Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/kyleweintraub/Galvanize/g70life/Catan-Leaderboard/frontend'...
+[info] 
+[debug] [2017-12-21T21:16:20.688Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/g70-catan-leaderboard  
+ Thu Dec 21 2017 14:16:20 GMT-0700 (MST)
+[debug] [2017-12-21T21:16:21.026Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-21T21:16:21.027Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/755648113389/clients/_:getWebAppConfig  
+ Thu Dec 21 2017 14:16:21 GMT-0700 (MST)
+[debug] [2017-12-21T21:16:21.357Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Local server: http://localhost:5000
+

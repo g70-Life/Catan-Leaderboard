@@ -41,3 +41,19 @@ h1 {
 #board td {
   border: 2px solid black;
 }
+
+.player-name {
+  background-color: hsl(0, 0%, 10%);
+  font-size: 1rem;
+  text-align: center
+}
+
+.win-count {
+  background-color: hsl(0, 0%, 10%);
+  text-align: center;
+}
+
+.quotation {
+  background-color: hsl(0, 0%, 10%);
+  font-size: 1.2rem;
+}
